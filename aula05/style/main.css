@@ -1,0 +1,41 @@
+header{
+   display:flex;
+    flex-wrap: wrap;
+    background-color: darksalmon;
+    justify-content: space-around;
+}
+header h1{
+   /* background-color: darkseagreen;*/
+}
+header div{
+    /*background-color: darkslateblue;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header figure{
+    /*background-color: deeppink;*/
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: darksalmon;
+}
+section div{
+    display: flex;
+    background-color: darksalmon;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+section figure{
+    background-color: darksalmon
+}
+
+   footer{
+       background-color: darksalmon;
+       text-align: center;
+       padding: 65px;
+   }
