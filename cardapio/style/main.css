@@ -1,7 +1,6 @@
 header, main, div#Cardapio, footer, input{
     display: flex;
     flex-wrap: wrap;
-    background-color: khaki;
 
 }
 
@@ -13,22 +12,26 @@ nav#menu, div#Cardapio{
     display: flex;
     justify-content: space-around;
     width: 100%;
+    color: black;
+    
 }
 
 button{
     background-color: yellow;
-    border-radius: 10px;
+    border-radius: 8px;
     border-style: solid;
     border-color: black;
     width: 150px;
 }
-
 h1{
+    text-align: center;
+    width: 5em;
     background-color: yellow;
     border-radius: 10px;
     border-style: solid;
     
 }
+
 
 div.produto{
     display: flex;
@@ -52,4 +55,33 @@ header{
 }
 hr{
     background-color: khaki;
+}
+body,html{
+    background-image: url(../img/fundo5.jpg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+}
+div#logo{
+    background-color: black;
+    border-radius: 10px;
+    border-style: solid;
+    display: flex;
+   
+    }
+
+div#Frango{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    background-color: black rgba(0,0,0,0.85);
+    
+}
+div#nome{
+    background-color: yellow;
+    border-radius: 10px;
+    border-style: solid;
+    display: flex;
+    Justify-content: space-around;
+
 }
