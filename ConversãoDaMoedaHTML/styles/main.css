@@ -1,9 +1,9 @@
 body{
     display: flex;
     justify-content: center;
-    background-color: rgb(10, 177, 85);
-     align-items: center;
-     margin: 200px;
+    background-image: url(../img/dolar.jpg);
+    align-items: center;
+    margin: 200px;
  }
  section{
      background-color:rgb(20, 124, 67);
